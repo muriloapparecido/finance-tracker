@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     display: flex; 
     flex-direction: column; 
@@ -14,4 +20,13 @@ h1 {
     display: flex; 
     justify-content: center; 
     align-items: center; 
+}
+
+.form-section {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin: 5px 0;
 }
